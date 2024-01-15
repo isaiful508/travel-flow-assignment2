@@ -21,13 +21,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 70px 60px 70px;
-    
+    padding: 3.125rem 4.375rem 3.75rem 4.375rem;
+
 }
 
 .nav-bar>ul {
     display: flex;
-    gap: 44px;
+    gap: 2.75rem;
 }
 
 .nav-bar li {
@@ -36,7 +36,7 @@
 
 .nav-bar h2 {
     color: #131318;
-    font-size: 36px;
+    font-size: 2.25px;
     font-weight: 800;
 }
 
@@ -47,40 +47,138 @@
 
 .nav-ul-style {
     color: #424247;
-    font-size: 18px;
+    font-size: 1.125px;
     font-weight: 400;
 
 }
+
+/* nav-bar style ended */
+
+/* banner section start */
+
+.banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    height: 500px;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left:6.25rem ;
+    margin-right: 6.25rem;
+    position: relative;
+
+}
+
+.banner-description {
+    position: absolute;
+    left: 23.125rem;
+    top: 6.25rem;
+}
+
+.banner-title h1 {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+
+}
+
+.banner-title p {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: .625rem;
+    padding:.625rem 1.25rem .625rem 1.25rem;
+    
+
+}
+
+.btn-section {
+    display: flex;
+    gap: 1.156rem;
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 1.875px;
+    position: absolute;
+    top: 14.375px ;
+    right: 5rem;
+}
+
+.btn-section input {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+.option-style{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+
+.btn-primary {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+
+}
+
+
+
+
+
+
 
 
 
 /* responsive style start */
 /* small device */
 @media screen and (max-width: 600px) {
-    .nav-bar{
+    .nav-bar {
         flex-direction: column;
     }
-    .nav-bar>ul{
+
+    .nav-bar>ul {
         flex-direction: column;
         gap: 8px;
     }
-    .img-title{
-        margin-bottom: 20px;
+
+    
+    .btn-section{
+        flex-direction: column;
+        
+    }
+    .banner-description{
+        position: absolute;
+        right: 100px;
     }
     
+    
+
 }
 
 /* medium device */
 @media screen and (min-width: 600px) and (max-width: 992px) {
-    .nav-bar{
+    .nav-bar {
         flex-direction: column;
         padding: 70px;
     }
-    .nav-bar>ul{
+
+    .nav-bar>ul {
         flex-direction: column;
         gap: 15px;
     }
-    .img-title{
+
+    .img-title {
         margin-bottom: 20px;
     }
 
