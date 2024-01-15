@@ -56,7 +56,7 @@
 
 /* banner section start */
 
-.banner {
+/* .banner {
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     height: 500px;
     border-radius: 16px;
@@ -117,7 +117,7 @@
     border-radius: 8px;
     background: #FFF;
     border: none;
-}
+} */
 
 .btn-primary {
     color: #FFF;
@@ -132,9 +132,57 @@
 
 }
 
+/* header section ended */
+.popular-tour {
+    display: flex;
+    justify-content: space-between;
+    padding: 3.125rem 4.375rem 3.75rem 4.375rem;
+}
 
+.popular-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    ;
+}
 
+.popular-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
+}
+#tour-list{
+    padding-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tour-img {
+    width: 540px;
+    height: 550px;
+}
+
+.footer{
+height: 502px;
+background: rgba(19, 19, 24, 0.05);
+position: relative;
+}
+.footer-div{
+    padding: 50px;
+    position: absolute;
+    bottom: 200px;
+    text-align: center;
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+}
+.footer-last{
+    align-items: center;
+}
 
 
 
@@ -152,8 +200,17 @@
         gap: 8px;
     }
 
-    
-    .btn-section{
+    .popular-tour {
+        flex-direction: column;
+    }
+
+    .tour-img {
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* .btn-section{
         flex-direction: column;
         
     }
@@ -161,8 +218,8 @@
         position: absolute;
         right: 100px;
     }
-    
-    
+     */
+
 
 }
 
