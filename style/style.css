@@ -154,7 +154,8 @@
     margin-bottom: 20px;
 
 }
-#tour-list{
+
+#tour-list {
     padding-left: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -165,23 +166,105 @@
     height: 550px;
 }
 
-.footer{
-height: 502px;
-background: rgba(19, 19, 24, 0.05);
-position: relative;
+/* tour style ended */
+
+/* destination style start */
+
+.destination-title {
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
 }
-.footer-div{
+
+.destination-title h2 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+
+.destination-title p {
+    margin-top: 26px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.maldives-indonesia {
+    display: flex;
+    justify-content: space-around;
+    
+    position: relative;
+}
+
+.maldives-indonesia img {
+    width: 573px;
+    height: 300px;
+
+}
+
+.maldives-title {
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: absolute;
+    left: 245px;
+    top: 110px;
+
+}
+.indo-img-container{
+    position: relative;
+}
+.indonesia-title{
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: absolute;
+    left: 245px;
+    top: 110px;
+    
+}
+
+/* .flex{
+    display: flex;
+    gap: 20px;
+    margin-left: 100px;
+    position: relative;
+}
+.flext{
+    position: absolute;
+    bottom: 70px;
+} */
+
+
+/* footer start */
+.footer {
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    position: relative;
+}
+
+.footer-div {
     padding: 50px;
     position: absolute;
     bottom: 200px;
     text-align: center;
 }
-.footer-img{
+
+.footer-img {
     display: flex;
     justify-content: center;
 }
-.footer-last{
+
+.footer-last {
     align-items: center;
+}
+
+hr {
+    background: rgba(19, 19, 24, 0.10);
+    margin-top: px;
 }
 
 
@@ -210,7 +293,19 @@ position: relative;
         height: 100%;
     }
 
-    /* .btn-section{
+    .maldives-indonesia {
+        flex-direction: column;
+    }
+
+    .maldives-indonesia img {
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+    }
+    
+}
+
+/* .btn-section{
         flex-direction: column;
         
     }
@@ -221,7 +316,7 @@ position: relative;
      */
 
 
-}
+
 
 /* medium device */
 @media screen and (min-width: 600px) and (max-width: 992px) {
