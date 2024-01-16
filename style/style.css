@@ -455,11 +455,12 @@
 }
 
 .tour-style {
-    padding: 70px;
+    padding: 40px;
     position: absolute;
-    top: 100px;
-    right: 200px;
-    width: 500px;
+    top: 50px;
+
+    left: 450px;
+    width: 400px;
     height: 300px;
     border-radius: 16px;
     border: 2px solid #ffffff;
@@ -469,7 +470,8 @@
 
 .tour-img-style {
     display: flex;
-    gap: 10px;
+    gap: 5px;
+
 }
 
 .tour-title {
@@ -495,6 +497,26 @@
     font-size: 20px;
     font-weight: 800;
 
+}
+
+.deals-img-2 {
+    margin-top: 60px;
+    margin-left: 15px;
+    position: relative;
+}
+
+.tour-img-style-2 {
+    padding: 40px;
+    position: absolute;
+    top: 50px;
+
+    left: 450px;
+    width: 400px;
+    height: 300px;
+    border-radius: 16px;
+    border: 2px solid #ffffff;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
 }
 
 /* perfect img part start */
@@ -661,11 +683,13 @@
 
 .footer-last {
     align-items: center;
+
 }
 
 hr {
     background: rgba(19, 19, 24, 0.10);
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 
@@ -708,10 +732,10 @@ hr {
     }
 
     #img-collage img {
-        width: 573px;
-        height: 300px;
-        /* width: 100%;
-        height: 100%; */
+        /* width: 573px;
+        height: 300px; */
+        width: 100%;
+        height: 100%;
 
     }
 
@@ -739,13 +763,43 @@ hr {
 
     }
 
+    .btn-section {
+        height: 180px;
+
+
+    }
+
     .banner-description {
         position: absolute;
-        right: 100px;
+        right: 70px;
+    }
+
+    .banner-description h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner-description {
+        font-size: .5rem;
     }
 
     .hotel-map {
         flex-direction: column;
+    }
+
+    .deals img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+       
+    }
+    .tour-style{
+        padding: px;
+        position: absolute;
+        top: 5px;
+        left: 50px;
+        width: 200px;
+        height: 150px;
+        
     }
 
     .perfect-img {
