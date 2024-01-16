@@ -55,20 +55,21 @@
 /* nav-bar style ended */
 
 /* banner section start */
- 
+
 .banner {
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
-    height:500px;
+    height: 500px;
     border-radius: 16px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-left:6.25rem ;
+    margin-left: 6.25rem;
     margin-right: 6.25rem;
     position: relative;
 
 }
-.banner{
+
+.banner {
     display: flex;
     align-items: center;
 }
@@ -91,8 +92,8 @@
     font-size: 1rem;
     font-weight: 400;
     margin-top: .625rem;
-    padding:.625rem 1.25rem .625rem 1.25rem;
-    
+    padding: .625rem 1.25rem .625rem 1.25rem;
+
 
 }
 
@@ -115,7 +116,8 @@
     background: #FFF;
     border: none;
 }
-.option-style{
+
+.option-style {
     width: 174px;
     height: 52px;
     border-radius: 8px;
@@ -275,17 +277,72 @@
 
 }
 
+/* choose cart style start */
 
-/* .flex{
-    display: flex;
-    gap: 20px;
-    margin-left: 100px;
-    position: relative;
+.choose-heading {
+    text-align: center;
+    margin-top: 100px;
+
 }
-.flext{
-    position: absolute;
-    bottom: 70px;
-} */
+
+.choose-heading h2 {
+    color: #131318;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.choose-heading p {
+    margin-top: 30px;
+    padding: 15px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.hotel-map {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.hotel {
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.map {
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.hotel-map h2 {
+    margin-top: 20px;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.hotel-map p {
+    margin-top: 20px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.price-cart {
+    text-align: center;
+    
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
 
 
 /* footer start */
@@ -345,35 +402,46 @@ hr {
     #img-collage img {
         width: 100%;
         height: 100%;
-       
+
     }
 
     .maldives-indonesia {
         flex-direction: column;
     }
 
-    
+
     .snk {
         flex-direction: column;
     }
 
-    
+
     .bd-bandarban {
         flex-direction: column;
     }
 
-   
-}
-
-/* .btn-section{
-        flex-direction: column;
-        
+    .choose-heading {
+        padding-left: 25px;
+        padding-right: 25px;
     }
-    .banner-description{
+
+    .btn-section {
+        flex-direction: column;
+
+    }
+
+    .banner-description {
         position: absolute;
         right: 100px;
     }
-     */
+
+    .hotel-map {
+        flex-direction: column;
+    }
+
+
+}
+
+
 
 
 
