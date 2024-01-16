@@ -1,5 +1,5 @@
 * {
-    max-width:100%;
+    max-width: 100%;
     margin: 0;
     padding: 0;
     /* border: 2px solid red; */
@@ -168,7 +168,7 @@
 }
 
 .tour-img {
-    width:100%;
+    width: 100%;
     height: 100%;
     /* width: 540px;
     height: 550px; */
@@ -208,8 +208,8 @@
 }
 
 .maldives-indonesia img {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     /* width: 573px;
     height: 300px; */
 
@@ -249,7 +249,7 @@
 }
 
 .srilanka-img {
-    width:100%;
+    width: 100%;
     height: 100%;
     /* width: 374px;
     height: 286px; */
@@ -257,14 +257,14 @@
 }
 
 .n-america-img {
-    width:100%;
+    width: 100%;
     height: 100%;
     /* width: 474px;
     height: 286px; */
 }
 
 .kashmir-img {
-    width:100%;
+    width: 100%;
     height: 100%;
     /* width: 274px;
     height: 286px; */
@@ -276,7 +276,7 @@
 }
 
 .bd-img {
-    width:100%;
+    width: 100%;
     height: 100%;
     /* width: 473px;
     height: 300px; */
@@ -284,7 +284,7 @@
 }
 
 .bandarban-img {
-    width:100%;
+    width: 100%;
     height: 100%;
     /* width: 673px;
     height: 300px; */
@@ -316,6 +316,9 @@
 }
 
 .hotel-map {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
     gap: 24px;
@@ -351,25 +354,146 @@
 }
 
 .price-cart {
-    
+
     max-width: 573px;
     text-align: center;
     margin: 0 auto;
-    
+
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
+
 /* choose cart style ended */
 
 /* perfect img part start */
-.perfect-img{
+.perfect-img {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
+.perfect-img h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.perfect-img p {
+    margin-top: 15px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.perfect-img li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* perfect img part ended */
+
+/* newsletter style start */
+.newsletter-and-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.newsletter {
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 50px;
+}
+
+.newsletter h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter p {
+    margin-top: 20px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.newsletter hr {
+    margin-top: 20px;
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.newsletter input {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+
+}
+
+.subscribr-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+
+}
+
+.discount-img {
+    position: relative;
+}
+
+.discount {
+    text-align: center;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    position: absolute;
+    right: 8px;
+    bottom: 50px;
+}
+
+.discount p {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+
+.discount h3 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    
+}
 
 /* footer start */
 .footer {
+    margin-top: 100px;
     height: 502px;
     background: rgba(19, 19, 24, 0.05);
     position: relative;
@@ -378,7 +502,8 @@
 .footer-div {
     padding: 50px;
     position: absolute;
-    bottom: 200px;
+    bottom: -1px;
+    left: 200px;
     text-align: center;
 }
 
@@ -393,7 +518,7 @@
 
 hr {
     background: rgba(19, 19, 24, 0.10);
-    margin-top: px;
+    margin-top: 100px;
 }
 
 
@@ -458,6 +583,13 @@ hr {
     }
 
     .hotel-map {
+        flex-direction: column;
+    }
+
+    .perfect-img {
+        flex-direction: column;
+    }
+    .newsletter-and-img{
         flex-direction: column;
     }
 
