@@ -55,10 +55,10 @@
 /* nav-bar style ended */
 
 /* banner section start */
-
-/* .banner {
+ 
+.banner {
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
-    height: 500px;
+    height:500px;
     border-radius: 16px;
     background-size: cover;
     background-position: center;
@@ -67,6 +67,10 @@
     margin-right: 6.25rem;
     position: relative;
 
+}
+.banner{
+    display: flex;
+    align-items: center;
 }
 
 .banner-description {
@@ -100,8 +104,8 @@
     background: rgba(255, 255, 255, 0.30);
     padding: 1.875px;
     position: absolute;
-    top: 14.375px ;
-    right: 5rem;
+    /* top: 14.375px ;
+    right: 5rem; */
 }
 
 .btn-section input {
@@ -117,7 +121,7 @@
     border-radius: 8px;
     background: #FFF;
     border: none;
-} */
+}
 
 .btn-primary {
     color: #FFF;
@@ -195,7 +199,7 @@
 .maldives-indonesia {
     display: flex;
     justify-content: space-around;
-    
+
     position: relative;
 }
 
@@ -214,18 +218,63 @@
     top: 110px;
 
 }
-.indo-img-container{
+
+.indo-img-container {
     position: relative;
 }
-.indonesia-title{
+
+.indonesia-title {
     color: #FFF;
     font-size: 1.75rem;
     font-weight: 800;
     position: absolute;
     left: 245px;
     top: 110px;
-    
+
 }
+
+.snk {
+    display: flex;
+    justify-content: space-around;
+}
+
+.snk img {
+    width: 100%;
+}
+
+.srilanka-img {
+    width: 374px;
+    height: 286px;
+
+}
+
+.n-america-img {
+    width: 474px;
+    height: 286px;
+}
+
+.kashmir-img {
+    width: 274px;
+    height: 286px;
+}
+
+.bd-bandarban {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bd-img {
+    width: 473px;
+    height: 300px;
+
+}
+
+.bandarban-img {
+    width: 673px;
+    height: 300px;
+
+}
+
 
 /* .flex{
     display: flex;
@@ -293,16 +342,27 @@ hr {
         height: 100%;
     }
 
+    #img-collage img {
+        width: 100%;
+        height: 100%;
+       
+    }
+
     .maldives-indonesia {
         flex-direction: column;
     }
 
-    .maldives-indonesia img {
-        width: 100%;
-        height: 100%;
-        margin-top: 20px;
-    }
     
+    .snk {
+        flex-direction: column;
+    }
+
+    
+    .bd-bandarban {
+        flex-direction: column;
+    }
+
+   
 }
 
 /* .btn-section{
