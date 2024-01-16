@@ -1,5 +1,5 @@
 * {
-    max-width: 1440px;
+    max-width:100%;
     margin: 0;
     padding: 0;
     /* border: 2px solid red; */
@@ -168,8 +168,10 @@
 }
 
 .tour-img {
-    width: 540px;
-    height: 550px;
+    width:100%;
+    height: 100%;
+    /* width: 540px;
+    height: 550px; */
 }
 
 /* tour style ended */
@@ -206,8 +208,10 @@
 }
 
 .maldives-indonesia img {
-    width: 573px;
-    height: 300px;
+    width:100%;
+    height:100%;
+    /* width: 573px;
+    height: 300px; */
 
 }
 
@@ -245,19 +249,25 @@
 }
 
 .srilanka-img {
-    width: 374px;
-    height: 286px;
+    width:100%;
+    height: 100%;
+    /* width: 374px;
+    height: 286px; */
 
 }
 
 .n-america-img {
-    width: 474px;
-    height: 286px;
+    width:100%;
+    height: 100%;
+    /* width: 474px;
+    height: 286px; */
 }
 
 .kashmir-img {
-    width: 274px;
-    height: 286px;
+    width:100%;
+    height: 100%;
+    /* width: 274px;
+    height: 286px; */
 }
 
 .bd-bandarban {
@@ -266,14 +276,18 @@
 }
 
 .bd-img {
-    width: 473px;
-    height: 300px;
+    width:100%;
+    height: 100%;
+    /* width: 473px;
+    height: 300px; */
 
 }
 
 .bandarban-img {
-    width: 673px;
-    height: 300px;
+    width:100%;
+    height: 100%;
+    /* width: 673px;
+    height: 300px; */
 
 }
 
@@ -337,11 +351,20 @@
 }
 
 .price-cart {
+    
+    max-width: 573px;
     text-align: center;
+    margin: 0 auto;
     
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
+}
+/* choose cart style ended */
+
+/* perfect img part start */
+.perfect-img{
+    display: flex;
 }
 
 
