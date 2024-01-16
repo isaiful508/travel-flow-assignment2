@@ -1,5 +1,5 @@
 * {
-    max-width: 100%;
+    max-width: 1440px;
     margin: 0;
     padding: 0;
     /* border: 2px solid red; */
@@ -59,6 +59,7 @@
 .banner {
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     height: 500px;
+
     border-radius: 16px;
     background-size: cover;
     background-position: center;
@@ -75,9 +76,12 @@
 }
 
 .banner-description {
-    position: absolute;
-    left: 23.125rem;
-    top: 6.25rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .banner-title h1 {
@@ -99,14 +103,14 @@
 
 .btn-section {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 1.156rem;
     width: 100%;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     padding: 1.875px;
-    position: absolute;
-    /* top: 14.375px ;
-    right: 5rem; */
+
 }
 
 .btn-section input {
@@ -237,6 +241,84 @@
     left: 245px;
     top: 110px;
 
+}
+
+.snk {
+    margin-top: 20px;
+}
+
+.srilanka-img-container {
+    position: relative;
+}
+
+.srilanka-title {
+    position: absolute;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: absolute;
+    left: 130px;
+    top: 110px;
+}
+
+.n-america-img-container {
+    position: relative;
+}
+
+.n-america-title {
+    position: absolute;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: absolute;
+    left: 130px;
+    top: 110px;
+}
+
+.kasmir-img-container {
+    position: relative;
+}
+
+.kashmir-title {
+    position: absolute;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: absolute;
+    left: 80px;
+    top: 110px;
+}
+
+.bd-bandarban {
+    margin-top: 20px;
+}
+
+.bd-img-container {
+    position: relative;
+}
+
+.bd-title {
+    position: absolute;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: absolute;
+    left: 130px;
+    top: 110px;
+}
+
+.bandarban-img-container {
+    position: relative;
+}
+
+.bandarban-title {
+    position: absolute;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: absolute;
+    left: 220px;
+    top: 110px;
 }
 
 .snk {
@@ -481,15 +563,17 @@
     font-family: Mulish;
     font-size: 24px;
     font-weight: 400;
-    
+
 }
 
 .discount h3 {
     color: #FFF;
     font-size: 32px;
     font-weight: 800;
-    
+
 }
+
+/* main section style ended */
 
 /* footer start */
 .footer {
@@ -537,6 +621,19 @@ hr {
         gap: 8px;
     }
 
+    .banner-description {
+
+        text-align: center;
+        margin-top: 50px;
+        margin-right: -100px;
+    }
+
+    .btn-section {
+        margin-bottom: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
     .popular-tour {
         flex-direction: column;
     }
@@ -548,8 +645,10 @@ hr {
     }
 
     #img-collage img {
-        width: 100%;
-        height: 100%;
+        width: 573px;
+        height: 300px;
+        /* width: 100%;
+        height: 100%; */
 
     }
 
@@ -587,34 +686,29 @@ hr {
     }
 
     .perfect-img {
+        
         flex-direction: column;
     }
-    .newsletter-and-img{
+
+    #per-img {
+        margin-top: 20px;
+    }
+
+    .newsletter-and-img {
         flex-direction: column;
     }
 
-
-}
-
-
-
-
-
-
-/* medium device */
-@media screen and (min-width: 600px) and (max-width: 992px) {
-    .nav-bar {
-        flex-direction: column;
-        padding: 70px;
+    .newsletter {
+        width: 335px;
+        height: 353px;
+        
     }
 
-    .nav-bar>ul {
-        flex-direction: column;
-        gap: 15px;
-    }
+    .discount-img img {
+        margin-top: 20px;
+        width: 335px;
+        height: 300px;
 
-    .img-title {
-        margin-bottom: 20px;
     }
 
 
