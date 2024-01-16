@@ -480,6 +480,20 @@
     font-weight: 700;
 }
 
+.per-img-container {
+    position: relative;
+}
+
+.per-img-title {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    left: 180px;
+    top: 170px;
+}
+
+
 /* perfect img part ended */
 
 /* newsletter style start */
@@ -587,7 +601,7 @@
     padding: 50px;
     position: absolute;
     bottom: -1px;
-    left: 200px;
+    left: 100px;
     text-align: center;
 }
 
@@ -686,7 +700,7 @@ hr {
     }
 
     .perfect-img {
-        
+
         flex-direction: column;
     }
 
@@ -701,7 +715,7 @@ hr {
     .newsletter {
         width: 335px;
         height: 353px;
-        
+
     }
 
     .discount-img img {
