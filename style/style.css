@@ -447,6 +447,55 @@
 }
 
 /* choose cart style ended */
+.deals-img {
+    margin-left: 15px;
+    margin-top: 60px;
+    position: relative;
+    width: 100%;
+}
+
+.tour-style {
+    padding: 70px;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    width: 500px;
+    height: 300px;
+    border-radius: 16px;
+    border: 2px solid #ffffff;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.tour-img-style {
+    display: flex;
+    gap: 10px;
+}
+
+.tour-title {
+    margin-top: 15px;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.tour-description {
+    margin-top: 15px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.tour-price {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+
+}
 
 /* perfect img part start */
 .perfect-img {
